@@ -1,0 +1,434 @@
+/target:library
+/nowarn:0169
+/out:"Temp/UnityUIExtensions.dll"
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AIModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ARModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.FileSystemHttpModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.GridModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.InputModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TextCoreModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UIModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/define:UNITY_2019_2_4
+/define:UNITY_2019_2
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:ENABLE_VIDEO
+/define:PLATFORM_ANDROID
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:ENABLE_EGL
+/define:ENABLE_NETWORK
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:PLATFORM_SUPPORTS_ADS_ID
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:ANDROID_USE_SWAPPY
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_UNITYADS_RUNTIME
+/define:UNITY_UNITYADS_API
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"Assets/UI Extensions/Scripts/Controls/Accordion/Accordion.cs"
+"Assets/UI Extensions/Scripts/Controls/Accordion/AccordionElement.cs"
+"Assets/UI Extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs"
+"Assets/UI Extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs"
+"Assets/UI Extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs"
+"Assets/UI Extensions/Scripts/Controls/BoxSlider.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorImage.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorLabel.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorSampler.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorSlider.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/ColorValues.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/HexColorField.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/HSVUtil.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs"
+"Assets/UI Extensions/Scripts/Controls/ColorPicker/TiltWindow.cs"
+"Assets/UI Extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs"
+"Assets/UI Extensions/Scripts/Controls/ComboBox/ComboBox.cs"
+"Assets/UI Extensions/Scripts/Controls/ComboBox/DropDownList.cs"
+"Assets/UI Extensions/Scripts/Controls/ComboBox/DropDownListButton.cs"
+"Assets/UI Extensions/Scripts/Controls/ComboBox/DropDownListItem.cs"
+"Assets/UI Extensions/Scripts/Controls/CooldownButton.cs"
+"Assets/UI Extensions/Scripts/Controls/InputFocus.cs"
+"Assets/UI Extensions/Scripts/Controls/MultiTouchScrollRect.cs"
+"Assets/UI Extensions/Scripts/Controls/RadialSlider.cs"
+"Assets/UI Extensions/Scripts/Controls/RangeSlider.cs"
+"Assets/UI Extensions/Scripts/Controls/ReorderableList/ReorderableList.cs"
+"Assets/UI Extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs"
+"Assets/UI Extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs"
+"Assets/UI Extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs"
+"Assets/UI Extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs"
+"Assets/UI Extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs"
+"Assets/UI Extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs"
+"Assets/UI Extensions/Scripts/Controls/Segment.cs"
+"Assets/UI Extensions/Scripts/Controls/SegmentedControl.cs"
+"Assets/UI Extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs"
+"Assets/UI Extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs"
+"Assets/UI Extensions/Scripts/Controls/SelectionBox/SelectionBox.cs"
+"Assets/UI Extensions/Scripts/Controls/Stepper.cs"
+"Assets/UI Extensions/Scripts/Controls/StepperSide.cs"
+"Assets/UI Extensions/Scripts/Controls/TextPic.cs"
+"Assets/UI Extensions/Scripts/Controls/UI_Knob.cs"
+"Assets/UI Extensions/Scripts/Effects/BestFitOutline.cs"
+"Assets/UI Extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs"
+"Assets/UI Extensions/Scripts/Effects/CurlyUI/CUIGraphic.cs"
+"Assets/UI Extensions/Scripts/Effects/CurlyUI/CUIImage.cs"
+"Assets/UI Extensions/Scripts/Effects/CurlyUI/CUIMisc.cs"
+"Assets/UI Extensions/Scripts/Effects/CurlyUI/CUIText.cs"
+"Assets/UI Extensions/Scripts/Effects/CurvedText.cs"
+"Assets/UI Extensions/Scripts/Effects/CylinderText.cs"
+"Assets/UI Extensions/Scripts/Effects/Gradient.cs"
+"Assets/UI Extensions/Scripts/Effects/Gradient2.cs"
+"Assets/UI Extensions/Scripts/Effects/LetterSpacing.cs"
+"Assets/UI Extensions/Scripts/Effects/MonoSpacing.cs"
+"Assets/UI Extensions/Scripts/Effects/NicerOutline.cs"
+"Assets/UI Extensions/Scripts/Effects/RaycastMask.cs"
+"Assets/UI Extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs"
+"Assets/UI Extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs"
+"Assets/UI Extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs"
+"Assets/UI Extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs"
+"Assets/UI Extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs"
+"Assets/UI Extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs"
+"Assets/UI Extensions/Scripts/Effects/ShineEffect.cs"
+"Assets/UI Extensions/Scripts/Effects/ShineEffector.cs"
+"Assets/UI Extensions/Scripts/Effects/SoftMaskScript.cs"
+"Assets/UI Extensions/Scripts/Effects/UIFlippable.cs"
+"Assets/UI Extensions/Scripts/Effects/UIParticleSystem.cs"
+"Assets/UI Extensions/Scripts/InputModules/AimerInputModule.cs"
+"Assets/UI Extensions/Scripts/InputModules/GamePadInputModule.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/2D Cards/CardExpanding2D.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/2D Cards/CardPopup2D.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/2D Cards/CardStack2D.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/3D Cards/CardExpanding3D.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/Superellipse Creation/MeshCreator.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/Superellipse Creation/SuperellipsePoints.cs"
+"Assets/UI Extensions/Scripts/Layout/CardUI/Superellipse Creation/Triangulator.cs"
+"Assets/UI Extensions/Scripts/Layout/ContentScrollSnapHorizontal.cs"
+"Assets/UI Extensions/Scripts/Layout/CurvedLayout.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Core/FancyScrollView.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Core/FancyScrollViewCell.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/GridView/FancyGridView.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/GridView/FancyGridViewContext.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/GridView/FancyGridViewRow.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/GridView/IFancyGridViewContext.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Scroller/EasingCore.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Scroller/MovementDirection.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Scroller/MovementType.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Scroller/ScrollDirection.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/Scroller/Scroller.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/ScrollRect/Alignment.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRect.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRectCell.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRectContext.cs"
+"Assets/UI Extensions/Scripts/Layout/FancyScrollView/ScrollRect/IFancyScrollRectContext.cs"
+"Assets/UI Extensions/Scripts/Layout/FlowLayoutGroup.cs"
+"Assets/UI Extensions/Scripts/Layout/HorizontalScrollSnap.cs"
+"Assets/UI Extensions/Scripts/Layout/IScrollSnap.cs"
+"Assets/UI Extensions/Scripts/Layout/RadialLayout.cs"
+"Assets/UI Extensions/Scripts/Layout/ScrollPositionController.cs"
+"Assets/UI Extensions/Scripts/Layout/ScrollSnap.cs"
+"Assets/UI Extensions/Scripts/Layout/ScrollSnapBase.cs"
+"Assets/UI Extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs"
+"Assets/UI Extensions/Scripts/Layout/TableLayoutGroup.cs"
+"Assets/UI Extensions/Scripts/Layout/TileSizeFitter.cs"
+"Assets/UI Extensions/Scripts/Layout/UIVerticalScroller.cs"
+"Assets/UI Extensions/Scripts/Layout/VerticalScrollSnap.cs"
+"Assets/UI Extensions/Scripts/MenuSystem/Menu.cs"
+"Assets/UI Extensions/Scripts/MenuSystem/MenuManager.cs"
+"Assets/UI Extensions/Scripts/MenuSystem/SimpleMenu.cs"
+"Assets/UI Extensions/Scripts/Primitives/DiamondGraph.cs"
+"Assets/UI Extensions/Scripts/Primitives/UICircle.cs"
+"Assets/UI Extensions/Scripts/Primitives/UICornerCut.cs"
+"Assets/UI Extensions/Scripts/Primitives/UIGridRenderer.cs"
+"Assets/UI Extensions/Scripts/Primitives/UILineRenderer.cs"
+"Assets/UI Extensions/Scripts/Primitives/UILineRendererList.cs"
+"Assets/UI Extensions/Scripts/Primitives/UILineTextureRenderer.cs"
+"Assets/UI Extensions/Scripts/Primitives/UIPolygon.cs"
+"Assets/UI Extensions/Scripts/Primitives/UIPrimitiveBase.cs"
+"Assets/UI Extensions/Scripts/TabNavigationHelper.cs"
+"Assets/UI Extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs"
+"Assets/UI Extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs"
+"Assets/UI Extensions/Scripts/ToolTips/HoverTooltip.cs"
+"Assets/UI Extensions/Scripts/ToolTips/ToolTip.cs"
+"Assets/UI Extensions/Scripts/ToolTips/TooltipTrigger.cs"
+"Assets/UI Extensions/Scripts/UIWindowBase.cs"
+"Assets/UI Extensions/Scripts/Utilities/BezierPath.cs"
+"Assets/UI Extensions/Scripts/Utilities/CableCurve.cs"
+"Assets/UI Extensions/Scripts/Utilities/Circle.cs"
+"Assets/UI Extensions/Scripts/Utilities/CLZF2.cs"
+"Assets/UI Extensions/Scripts/Utilities/DragCorrector.cs"
+"Assets/UI Extensions/Scripts/Utilities/ExtensionsToggle.cs"
+"Assets/UI Extensions/Scripts/Utilities/ExtensionsToggleGroup.cs"
+"Assets/UI Extensions/Scripts/Utilities/ExtentionMethods.cs"
+"Assets/UI Extensions/Scripts/Utilities/InputFieldEnterSubmit.cs"
+"Assets/UI Extensions/Scripts/Utilities/NonDrawingGraphic.cs"
+"Assets/UI Extensions/Scripts/Utilities/PaginationManager.cs"
+"Assets/UI Extensions/Scripts/Utilities/PPIViewer.cs"
+"Assets/UI Extensions/Scripts/Utilities/ReadOnlyAttribute.cs"
+"Assets/UI Extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs"
+"Assets/UI Extensions/Scripts/Utilities/ScrollConflictManager.cs"
+"Assets/UI Extensions/Scripts/Utilities/ScrollRectEx.cs"
+"Assets/UI Extensions/Scripts/Utilities/ScrollRectExtensions.cs"
+"Assets/UI Extensions/Scripts/Utilities/ScrollRectLinker.cs"
+"Assets/UI Extensions/Scripts/Utilities/ScrollRectTweener.cs"
+"Assets/UI Extensions/Scripts/Utilities/SelectableScaler.cs"
+"Assets/UI Extensions/Scripts/Utilities/SetPropertyUtility.cs"
+"Assets/UI Extensions/Scripts/Utilities/switchToRectTransform.cs"
+"Assets/UI Extensions/Scripts/Utilities/TestCompression.cs"
+"Assets/UI Extensions/Scripts/Utilities/UI_InfiniteScroll.cs"
+"Assets/UI Extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs"
+"Assets/UI Extensions/Scripts/Utilities/UI_TweenScale.cs"
+"Assets/UI Extensions/Scripts/Utilities/UIExtensionMethods.cs"
+"Assets/UI Extensions/Scripts/Utilities/UIHighlightable.cs"
+"Assets/UI Extensions/Scripts/Utilities/UILineConnector.cs"
+"Assets/UI Extensions/Scripts/Utilities/UIScrollToSelection.cs"
+"Assets/UI Extensions/Scripts/Utilities/UIScrollToSelectionXY.cs"
+"Assets/UI Extensions/Scripts/Utilities/UISelectableExtension.cs"
+"Assets/UI Extensions/Scripts/VR Extensions/VRCursor.cs"
+"Assets/UI Extensions/Scripts/VR Extensions/VRInputModule.cs"
