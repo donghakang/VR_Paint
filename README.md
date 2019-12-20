@@ -20,6 +20,20 @@ steering and snap turn. As for advanced techniques, "Diegetic Graphical Menu" wa
 the palette settings and "1-DOF Menu" was implemented as the sides within the palette.
 
 
+## Idea
+So first our idea. We actually got our idea from Google Tilt Brush. In case you don’t know, it is a virtual painting experience that Google has put out and the image on the right is how it works. A person has a set of tools and they are able to select and paint in 3D space using a virtual reality headset. For our project, we hope to do something similar but instead of painting in complete 3D, we are planning to paint on surfaces of 3D objects for simplicity sake.
+
+## Diegetic Graphical Menu
+So the focus of this project will mostly be on the menus. We want this to be as intuitive and easy-to-use for our users as possible. To do this, we are planning to implement a diegetic graphical menu as one of our advanced techniques. This would mean that the menu would exist in 3D space instead of existing outside the virtual world and this would allow a more immersive experience. Right now, some ideas we have for this is to attach the menu to the user’s hand similar to how a painter would have his/her palette on his/her left hand.
+
+<img src="https://samwongpic.files.wordpress.com/2014/06/metro2033_ui.jpg" width="50%" height="50%">
+
+## 1-DOF Menu
+Finally, our second advanced technique would go along with that idea as we are planning to create a 1 degree of freedom menu. So just like the picture on the slide, we hope to create a virtual ring or wristband that wraps around the user’s nondominant hand that allows users to swap between tools when they paint.
+
+<img src="https://drive.google.com/open?id=1QJ5uWh0EwyPb-0fiwfIOY8OtKoAW-AhH" width="50%" height="50%">
+
+
 ### 3rd Party Assets:
 - Low Poly Environment Pack (Korveen),
 - ControllerLocomotion.cs from Homeworks,
