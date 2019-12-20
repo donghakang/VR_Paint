@@ -1,11 +1,10 @@
 # Drawing Pad
----
 Yehyun Ryu, Dongha Kang
-
+---
 This **Drawing Pad** is focused on 3D User Interface. Mainly this project is about implemented Diegetic Graphical Menu and
 1-DOF Menu. This project is not about how well we copied the original software called 'Tilt Brush'.
 
-Summary:
+## Summary:
 Drawing Pad is a virtual painting experience similar to Google Tiltbrush.
 The player starts with two controllers, one on each hand. On the right hand, you have a ball that you can use
 to paint in 3D space. By pressing down on the Secondary Hand Trigger (button on the side), you start painting.
