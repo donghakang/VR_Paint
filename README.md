@@ -1,6 +1,7 @@
 # Drawing Pad
 Yehyun Ryu, Dongha Kang
----
+
+## Introduction
 This **Drawing Pad** is focused on 3D User Interface. Mainly this project is about implemented Diegetic Graphical Menu and
 1-DOF Menu. This project is not about how well we copied the original software called 'Tilt Brush'.
 
