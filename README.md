@@ -31,8 +31,7 @@ So the focus of this project will mostly be on the menus. We want this to be as 
 ## 1-DOF Menu
 Finally, our second advanced technique would go along with that idea as we are planning to create a 1 degree of freedom menu. So just like the picture on the slide, we hope to create a virtual ring or wristband that wraps around the user’s nondominant hand that allows users to swap between tools when they paint.
 
-<img src="https://drive.google.com/file/d/1QJ5uWh0EwyPb-0fiwfIOY8OtKoAW-AhH/view?usp=sharing" width="50%" height="50%">
-![image](https://drive.google.com/file/d/1QJ5uWh0EwyPb-0fiwfIOY8OtKoAW-AhH/view?usp=sharing)
+<img src="http://blog.leapmotion.com/wp-content/uploads/2014/12/arm-hud-arm.png" width="50%" height="50%">
 
 ### 3rd Party Assets:
 - Low Poly Environment Pack (Korveen),
